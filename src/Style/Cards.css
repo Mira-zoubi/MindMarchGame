@@ -1,0 +1,67 @@
+body {
+  background: #1a0f2e;
+}
+
+
+.card-image{
+   
+    border-radius: 20px;
+    margin:10px;
+  
+ 
+}
+.button{
+     padding: 0;
+  border-width: 3px;
+  background: none;
+  background-color: lightgray;
+  margin: 25px;
+  box-shadow: 0 0 10px lightblue;
+
+}
+.card-image:hover {
+    box-shadow: 0 0 20px blue;
+    transition: all 0.2s ease;
+}
+
+.Title{
+    text-align:center;
+    font-size: 30px;
+    color: white;
+   font-family: "Fredoka One", cursive;
+/* border: 2px solid black; */
+
+
+
+
+}
+.game-name{
+    color: lightblue;
+    text-shadow: 0 0 10px blue;
+    
+}
+.game-over{
+    color: red;
+  display: inline;
+   text-shadow: 0 0 20px red;
+
+}
+.Score{
+   display: flex;
+   justify-content: end;
+   gap: 30px;
+   color: lightblue;
+   font-size: 24px;
+    font-family: "Fredoka One", cursive;
+   font-weight: bolder;
+}
+.name{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 160px;
+   margin-left: 76px;
+    font-family: "Fredoka One", cursive;
+}
